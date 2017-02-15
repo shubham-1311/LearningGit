@@ -1,0 +1,60 @@
+h1{
+    color: aqua;
+}
+a{
+    float: right;
+    text-align: right;
+    font-size: 15px;
+}
+a:hover { 
+    background-color: darkred;
+    text-decoration-color: firebrick;
+}
+.layout{
+    margin: 0 auto;
+    width: 55%;
+    align-content: center;
+    border: 3px solid;
+    border-color: #000;
+    margin-bottom: 2px;
+}
+h3{
+    margin: 5px;
+}
+.header{
+    padding: 5px;
+    background-color: burlywood
+    
+}
+ul{
+    list-style: none;   
+}
+li{
+    margin: 0 auto;
+    width: 90%
+}
+.formelement{
+    width: 100%;
+}
+#OS{
+    width: 100%;
+}
+.foot{  
+    background-color: crimson;
+    
+    max-width: 100%;
+    padding: 5%;
+    padding-left: 80%;
+ }
+.change_color{
+    background-color:darkseagreen;
+}
+.send{
+    margin-left: 80%
+    margin: 10px;
+    padding: 10 px;
+    
+}
+.shift{
+    width: 40%;
+}

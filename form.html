@@ -1,0 +1,94 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" type="text/css" href="form.css">
+        
+     </head>
+    <body>
+        <div>
+            <h1>TO THE NEW <span><a>Home</a><a>Quick Help</a></span></h1>
+            <hr>
+            <div class="layout"> 
+                <div class="header"><h3>Bug Report</h3>
+                </div>
+                <div>
+                    <form>
+                    <ul>
+                        <li>
+                            <p>Title:*</p>
+                            <input id="name" type="text" pattern="[A-Za-z]" title="Title" class="formelement">
+                                   
+                            
+                        </li>
+                        <li>
+                            <p>Discription:*</p>
+                            <textarea id="name" type="text" title="Title" class="formelement"></textarea>
+                            
+                                   
+                            
+                        </li>
+                        <li >
+                            <p>Operating System:</p>
+                            <input list="OS" class="formelement" class="change_color">
+                            <datalist id="OS">
+                                <option value="Windows xp"></option>
+                                <option value="Windows 10"></option>
+                                <option value="Ubuntu"></option>
+                            </datalist>
+                                   
+                            
+                        </li>
+                        <li>
+                            <p>Product:*</p>
+                            <input list="product" class="formelement" class="change_color">
+                            <datalist id="product">
+                                <option value="Formoid"></option>
+                                <option value="ABCS"></option>
+                                <option value="XYZ"></option>
+                            </datalist>
+                                   
+                            
+                        </li>
+                        <li>
+                            <p>Version:*</p>
+                            <input id="version" type="text" title="Title" >
+                                   
+                            
+                        </li>
+                        <li>
+                            <p>Licence:</p>
+                            <input id="lice" type="radio" name="licence" value="free">Free
+                            <input id="lice" type="radio" name="licence" value="buissness">Buissness
+                            
+                                   
+                            
+                        </li>
+                        <li>
+                            <p>Priority</p>
+                            <input list="severity" class="formelement change_color">
+                            <datalist id="severity">
+                                <option value="Critical"></option>
+                                <option value="Normal"></option>
+                            </datalist>
+                                   
+                            
+                        </li>
+                        <li>
+                            <p>Attachments:</p>
+                            <input id="file" type="file" title="attachment" >
+                                   
+                            
+                        </li>
+                    </ul>
+                    <div class="foot">
+                            <input type="button" title="Send" value="Send"  class="send" >
+                    </div>
+                    </form>
+                </div>
+        
+            </div> 
+        </div>
+        
+    </body>
+</html>
